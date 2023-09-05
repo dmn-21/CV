@@ -244,13 +244,13 @@ a {
     text-decoration: none;
 }
 
-@media (width <= 950px) {
+@media (width < 950px) {
     .group p {
         font-size: 12px;
     }
 }
 
-@media (width <= 750px) {
+@media (width < 750px) {
     h2 {
         font-size: 24px;
     }
@@ -274,7 +274,7 @@ a {
     }
 }
 
-@media (width <= 600px) {
+@media (width < 600px) {
     .leftSide {
         display: none;
     }
@@ -287,5 +287,11 @@ a {
     .certificated p {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (width < 400px) {
+    .top {
+        padding-top: 20px;
     }
 }
