@@ -283,4 +283,9 @@ a {
         gap: 0;
         grid-template-columns: none;
     }
+
+    .certificated p {
+        display: flex;
+        flex-direction: column;
+    }
 }
