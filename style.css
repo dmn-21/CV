@@ -17,7 +17,7 @@ body {
 
 .container {
     position: relative;
-    width: 1000px;
+    max-width: 1000px;
     min-height: 1000px;
     background-color: #fff;
     margin: 50px;
@@ -237,4 +237,45 @@ h4 {
 
 .hobbies ul li i {
     font-size: 2em;
+}
+
+@media (width <= 950px) {
+    .group p {
+        font-size: 12px;
+    }
+}
+
+@media (width <= 750px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .rightSide p {
+        font-size: 12px;
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hobbies ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hobbies ul li {
+        width: 100%;
+    }
+}
+
+@media (width <= 600px) {
+    .leftSide {
+        display: none;
+    }
+
+    .group {
+        gap: 0;
+        grid-template-columns: none;
+    }
 }
