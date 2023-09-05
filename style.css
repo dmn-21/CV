@@ -241,6 +241,7 @@ h4 {
 
 a {
     color: #3d1b95;
+    text-decoration: none;
 }
 
 @media (width <= 950px) {
