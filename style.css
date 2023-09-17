@@ -46,8 +46,9 @@ h2 {
     display: grid;
     gap: 40px;
     width: 100%;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1.4fr 3fr;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .group .imgBx {
