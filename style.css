@@ -182,6 +182,10 @@ h4 {
     color: #574237;
 }
 
+.edu_groupBx p {
+    color: #574237;
+}
+
 h4 {
     margin-top: 1em;
 }
@@ -200,6 +204,10 @@ h4 {
 }
 
 .certificated b {
+    color: #574237;
+}
+
+.certificated p {
     color: #574237;
 }
 
@@ -246,9 +254,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    color: #574237;
-}
 
 @media (width < 950px) {
     .group p {
