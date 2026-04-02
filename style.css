@@ -304,6 +304,12 @@ a {
     }
 }
 
+@media (width < 500px) {
+    .top h2{
+        font-size: 1em;
+    }
+}
+
 @media (width < 400px) {
     .top {
         padding-top: 20px;
