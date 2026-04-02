@@ -70,8 +70,7 @@ h2 {
     display: grid;
     margin: 50px 50px;
     margin-top: 60px;
-    gap: 40px;
-    grid-template-columns: 2fr 3fr;
+    gap: 40px;
 }
 
 .bottom .left-side {
